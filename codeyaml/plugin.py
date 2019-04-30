@@ -23,7 +23,7 @@ class CodeYamlPlugin(BasePlugin):
         context.update(config.get('extra', {}))
         extra = config.get('extra')
         
-        clients = extra.get('clients')
+        clients = extra.get('yamls')
         for client in clients:
             path = os.path.dirname(os.path.abspath(__file__))
             yml = os.path.join(os.getcwd(), '{}.yml'.format(client.get('yaml')))

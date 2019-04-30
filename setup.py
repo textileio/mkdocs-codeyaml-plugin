@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name='mkdocs-codeyaml-plugin',
-    version='0.0.12',
+    version='0.0.16',
     description='A MkDocs plugin that injects the mkdocs.yml extra variables PLUS additional YML files into the markdown template',
     long_description=read('README.md'),
     keywords='mkdocs python markdown extra values PLUS extra yml',
